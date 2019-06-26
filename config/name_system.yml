@@ -1,0 +1,14 @@
+default: &default
+  name: 'QueroMudar'
+
+production:
+  <<: *default
+
+staging:
+  <<: *default
+
+development:
+  <<: *default
+
+test:
+  <<: *default
